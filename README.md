@@ -109,7 +109,7 @@ This demonstrates that upgrading the JDK can yield substantial performance benef
 
 ## JavaStreamsTest osztály összefoglaló (magyarul)
 
-A `JavaStreamsTest` osztály különböző Java Stream és ciklus műveletek teljesítményét méri. Létrehoz egy nagy tesztadat-listát (30 millió string), majd különböző módszerekkel (for-ciklus, stream, parallelStream, segédfüggvénnyel és anélkül) konvertálja a stringeket kis- és nagybetűssé, és méri az egyes megközelítések futási idejét.
+A `JavaStreamsTest` osztály különböző Java Stream és ciklus műveletek teljesítményét méri. Létrehoz egy nagy tesztadat-listát (30 millió string), majd különböző módszerekkel (for-ciklus, stream, parallelStream, segédfüggvénnyel és anélkül) konvertálja a `string`-eket kis- és nagybetűssé, és méri az egyes megközelítések futási idejét.
 
 A sebességtesztek Temurin JDK 8, 11, 17 és 21 verziókkal készültek. Minden JDK-hoz a `pom.xml`-ben a `maven.compiler.source` és `maven.compiler.target` értékek a megfelelő JDK verzióra lettek állítva.
 
@@ -128,4 +128,4 @@ A README-ben található eredmények alapján:
 - **Java 11**: Minden módszer sokkal gyorsabb, mint Java 8-ban. A for, stream és parallelStream közötti különbség csökken, de a parallelStream továbbra is a leggyorsabb.
 - **Java 17 és 21**: A for, stream és parallelStream közötti különbség minimális. A parallelStream még mindig a leggyorsabb, de a for és a stream is nagyon közel van egymáshoz, ami azt mutatja, hogy a JDK fejlesztései minden megközelítést optimalizáltak.
 
-Ez azt mutatja, hogy a JDK frissítése jelentős teljesítménynövekedést eredményezhet a stream és string műveletekben, és hogy a parallelStream különösen a régebbi JDK-kban ad kiemelkedő teljesítményt.
+Ez azt mutatja, hogy a JDK frissítése jelentős teljesítménynövekedést eredményezhet a stream és string műveletekben, és hogy a parallelStream különösen a régebbi JDK-kában ad kiemelkedő teljesítményt.
