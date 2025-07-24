@@ -2,7 +2,7 @@
 
 ## Java 8 - Spring Boot 2.7.18
 
-[INFO] Running hu.zsoltii.javastreams.JavaStreamsTest
+`[INFO] Running hu.zsoltii.javastreams.JavaStreamsTest
 21:32:29.511 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - Creating test data...
 21:32:57.431 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - Create test data time: 27918 ms
 21:32:57.440 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - Running for for_noFunctionCall(TestInfo)
@@ -17,7 +17,7 @@
 21:35:09.602 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - parallelStream_functionCall(TestInfo) - Convert all line time: 18281 ms
 21:35:09.603 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - Running for parallelStream_noFunctionCall(TestInfo)
 21:35:11.995 [main] INFO hu.zsoltii.javastreams.JavaStreamsTest - parallelStream_noFunctionCall(TestInfo) - Convert all line time: 2391 ms
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 162.511 s - in hu.zsoltii.javastreams.JavaStreamsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 162.511 s - in hu.zsoltii.javastreams.JavaStreamsTest`
 
 --------------------------------------------
 
