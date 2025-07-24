@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>hu.zsoltii</groupId>
-    <artifactId>java-streams</artifactId>
+    <artifactId>java-for-vs-streams-speed</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
